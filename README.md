@@ -16,6 +16,12 @@ O programa não monta a arvore como indicada, no lugar ele salva a posição de 
 Se os pacientes podem apenas tomar todos os remedios ou nenhum, o número maximo de pacientes é definido pelo remédio com menor quantidade.
 O programa lê a quantidade de cada remédio, os adiciona a uma lista e a ordena de menor para o maior, após o programa retorna o primeiro valor da lista.
 
+#Digitos - Problema G
+
+O programa depende de um método eficiente para descobrir todos os números primos entre um intervalo. Para isso foi implementado um algoritmo baseado no crivo de erastótanes: https://www.khanacademy.org/computing/computer-science/cryptography/comp-number-theory/v/sieve-of-eratosthenes-prime-adventure-part-4
+Após os números serem descobertos e armazenados em uma lista, o progama varre essa lista, tratando cada número como uma String para contar a ocorrência de cada digito. As ocorrências são impressas conforme orientado no enunciado.
+
+
 #Megabobagem - Problema I
 
 Para um conjunto de letras ser um palíndromo, é necessário que quando dividir ele ao meio, haja o mesmo número de letras de cada lado. Ou seja, se o conjunto for par, é necessário que todas ocorrencias de cada letra seja um número par, se o conjunto for impar, no máximo uma letra pode ter suas ocorrencias como impar.
